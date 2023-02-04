@@ -1,14 +1,14 @@
 {
   "parts": {
-    "product_rpi4": {
+    "product_fajita": {
       "module_list": [
-        "//vendor/raspberrypi/rpi4/default_app_config:default_app_config",
-        "//vendor/raspberrypi/rpi4/image_conf:custom_image_conf",
-        "//vendor/raspberrypi/rpi4/preinstall-config:preinstall-config",
-        "//vendor/raspberrypi/rpi4/resourceschedule:resourceschedule",
-        "//vendor/raspberrypi/rpi4/etc:product_etc_conf"
+        "//vendor/oneplus/fajita/default_app_config:default_app_config",
+        "//vendor/oneplus/fajita/image_conf:custom_image_conf",
+        "//vendor/oneplus/fajita/preinstall-config:preinstall-config",
+        "//vendor/oneplus/fajita/resourceschedule:resourceschedule",
+        "//vendor/oneplus/fajita/etc:product_etc_conf"
       ]
     }
   },
-  "subsystem": "product_raspberrypi"
+  "subsystem": "product_oneplus"
 }

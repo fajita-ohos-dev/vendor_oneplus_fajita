@@ -1,11 +1,11 @@
 {
-  "product_name": "rpi4",
-  "device_company": "raspberrypi",
-  "device_build_path": "device/board/raspberrypi/rpi4",
+  "product_name": "fajita",
+  "device_company": "oneplus",
+  "device_build_path": "device/board/oneplus/fajita",
   "target_cpu": "arm",
   "type": "standard",
   "version": "3.0",
-  "board": "rpi4",
+  "board": "fajita",
   "api_version": 8,
   "enable_ramdisk": false,
   "build_selinux": false,
@@ -43,10 +43,10 @@
       ]
     },
     {
-      "subsystem": "raspberrypi_products",
+      "subsystem": "oneplus_products",
       "components": [
         {
-          "component": "raspberrypi_products"
+          "component": "oneplus_products"
         }
       ]
     },

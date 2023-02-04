@@ -34,7 +34,7 @@ ohos_executable("gpio_test") {
     "hiviewdfx_hilog_native:libhilog",
   ]
 
-  part_name = "raspberrypi_products"
+  part_name = "oneplus_products"
   install_images = [ "system" ]
   install_enable = true
 }
